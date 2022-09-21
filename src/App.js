@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import MainContent from './components/MainContent';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="App-header">
+        <img src="/asset/github-icon.png"/>
+        <div className="bio">
+          <p>Hi! I'm Feiyang Ma. I am a third year Computer Science student at UC Irvine</p>
+          <p>I'm interested in building useful websites and apps for other people and enjoy solving real-life problems</p>
+        </div>
+      </div>
+      <MainContent />
+      <div className='contact'>
+        
+      </div>
     </div>
   );
 }

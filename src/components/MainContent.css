@@ -1,0 +1,73 @@
+.my-work .text {
+    text-align: left;
+}
+
+.projects .cards {
+    display: flex;
+    overflow-x: scroll;
+    margin: 0 1%;
+    color: black;
+}
+
+a, u {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+.experiences h2 {
+    text-align: left;
+}
+
+.experiences ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+}
+
+.experiences li {
+    border: 1px solid black;
+    border-width: 100%;
+    margin: 5px;
+}
+
+.experiences li:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.projects .cards .card {
+    color: black;
+    margin: 1%;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgb(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 5px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+}
+
+.projects .cards .card:hover {
+    box-shadow: 0 12px 24px 0 rgb(0,0,0,0.2);
+}
+
+.cards .card a img {
+    width: 250px;
+    height: 70px;
+    margin: 20px;
+}
+
+.cards .card .container article {
+    padding: 15px;
+    cursor: pointer;
+}
